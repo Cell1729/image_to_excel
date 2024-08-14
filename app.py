@@ -4,9 +4,9 @@
 # Excel limit columns 16,384
 
 
-from models.ExcelModels import EditExcel
+from models.ImageModels import ImportImage
 
 # Path to the image
-image_path = r'C:\Users\sabax\source\repos\image_to_excel\testImage\Z3VA8oJw_400x400.jpg'
+image_path = r'\testImage\Z3VA8oJw_400x400.jpg'
 
-EditExcel(image_path)
+ImportImage(image_path)
